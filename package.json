@@ -1,0 +1,25 @@
+{
+  "name": "req-info",
+  "version": "1.0.5",
+  "description": "Get express request info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benrei/req-info.git"
+  },
+  "keywords": [
+    "express",
+    "request",
+    "req",
+    "info"
+  ],
+  "author": "Benjamin Reiersølmoen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benrei/req-info/issues"
+  },
+  "homepage": "https://github.com/benrei/req-info#readme"
+}

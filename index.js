@@ -1,5 +1,13 @@
+module.exports.id = function(req){
+  if(req && req.id) return ` ${req.id}`;
+};
+
+module.exports.duration = function(req){
+  if(req && req.duration) return req.duration();
+};
+
 module.exports.userId = function(req){
-  if(req && req.user && req.user.sub) return 'UserId: ' + req.user.sub;
+  if(req && req.user && req.user.sub) return req.user.sub;
 };
 
 module.exports.user = function(req){
